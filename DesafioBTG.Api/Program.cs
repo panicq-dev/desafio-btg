@@ -10,7 +10,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddDbContext<DbContextApp>(options => options.UseNpgsql(connectionString));
 builder.Services.AddScoped<PedidoService>();
 
-
+builder.Services.AddControllers();
+builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -20,5 +21,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(options =>
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "DesafioBTG API v1"));
 }
+app.MapControllers();
 app.UseHttpsRedirection();
 app.Run();

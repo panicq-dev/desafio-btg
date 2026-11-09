@@ -4,7 +4,7 @@ using DesafioBTG.Api.Models;
 using DesafioBTG.Api.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DesafioBTG.Api.Controllers;
+namespace DesafioBTG.Api.Controller;
 
 [ApiController]
 [Route("[controller]")]
@@ -20,8 +20,8 @@ public class PedidosController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Criar(PedidoRequest request, int clienteId)
     {
-         _pedidoService.FazerPedido(request, clienteId);
-        return Ok();
+         var pedido = _pedidoService.FazerPedido(request, clienteId);
+        return Ok(pedido);
     }
 
     [HttpGet("listar/{clienteId}")]
