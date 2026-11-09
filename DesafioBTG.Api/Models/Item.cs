@@ -4,6 +4,7 @@ namespace DesafioBTG.Api.Models;
 
 public class Item
 {
+    [JsonIgnore]
     public int Id { get; set; }
     public string Nome { get; set; }
     public int Quantidade { get; set; }
