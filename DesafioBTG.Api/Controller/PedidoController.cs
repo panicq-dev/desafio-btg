@@ -20,7 +20,7 @@ public class PedidosController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Criar(PedidoRequest request, int clienteId)
     {
-         var pedido = _pedidoService.FazerPedido(request, clienteId);
+         var pedido = await _pedidoService.FazerPedido(request, clienteId);
         return Ok(pedido);
     }
 

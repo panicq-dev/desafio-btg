@@ -11,6 +11,6 @@ public class Item
     public decimal Preco { get; set; }
     [JsonIgnore]
     public int PedidoId { get; set; }
-    [JsonIgnore]
-    public Pedido Pedido { get; set; } = null!;
+
+    [JsonIgnore] public Pedido? Pedido { get; set; }
 }
