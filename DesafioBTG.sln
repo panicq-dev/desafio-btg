@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioBTG.Api", "DesafioBTG.Api\DesafioBTG.Api.csproj", "{6FB9BA92-873E-4C10-99D4-410DF4DC8871}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioBTG.Worker", "DesafioBTG.Worker\DesafioBTG.Worker.csproj", "{875E4565-A02C-48A3-A17C-F7F2799661E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6FB9BA92-873E-4C10-99D4-410DF4DC8871}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FB9BA92-873E-4C10-99D4-410DF4DC8871}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FB9BA92-873E-4C10-99D4-410DF4DC8871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875E4565-A02C-48A3-A17C-F7F2799661E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875E4565-A02C-48A3-A17C-F7F2799661E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875E4565-A02C-48A3-A17C-F7F2799661E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875E4565-A02C-48A3-A17C-F7F2799661E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

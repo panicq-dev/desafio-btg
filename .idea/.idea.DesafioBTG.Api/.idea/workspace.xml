@@ -16,14 +16,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6b8ed2f8-0293-4a29-9c80-19919d61ce4b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesafioBTG.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesafioBTG.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioBTG.Api/DesafioBTG.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioBTG.Api/DesafioBTG.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioBTG.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioBTG.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesafioBTG.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioBTG.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioBTG.Api/Controller/PedidoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioBTG.Api/Controller/PedidoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioBTG.Api/Models/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioBTG.Api/Models/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesafioBTG.Api/Models/Pedido.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesafioBTG.Api/Models/Pedido.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,61 +44,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.00398832864535" />
-      <entry key="MS500" value="1.339459576678979" />
-      <entry key="S2" value="2.2596103238792993" />
-      <entry key="S5" value="3.4679693441961708" />
-      <entry key="S10" value="4.50193683369014" />
-      <entry key="S30" value="6.324261095303097" />
-      <entry key="S60" value="7.82916762302977" />
-      <entry key="M2" value="11.441224321909477" />
-      <entry key="M5" value="38.221972130296166" />
-      <entry key="M10" value="116.85274376592298" />
-      <entry key="M15" value="199.02297947445473" />
-      <entry key="M30" value="405.0259993011369" />
-      <entry key="H1" value="655.8037648504381" />
-      <entry key="H2" value="873.8616254619399" />
-      <entry key="H4" value="1021.9626479507274" />
-      <entry key="D1" value="1172.430298061005" />
-      <entry key="W1" value="1201.1274374396185" />
+      <entry key="MS100" value="1.0000008775593288" />
+      <entry key="MS500" value="1.061468879626641" />
+      <entry key="S2" value="1.4980589210801623" />
+      <entry key="S5" value="1.7848414099457086" />
+      <entry key="S10" value="2.0386184074546096" />
+      <entry key="S30" value="2.6383575305433986" />
+      <entry key="S60" value="4.343760596158739" />
+      <entry key="M2" value="11.110748380894632" />
+      <entry key="M5" value="26.862156811122016" />
+      <entry key="M10" value="38.235808018704276" />
+      <entry key="M15" value="47.201935845262945" />
+      <entry key="M30" value="103.33714442739232" />
+      <entry key="H1" value="303.9849539355795" />
+      <entry key="H2" value="668.163262429114" />
+      <entry key="H4" value="1050.135296219915" />
+      <entry key="D1" value="1572.1961094556352" />
+      <entry key="W1" value="1688.6603992690104" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.164611043129726E-169" />
-      <entry key="S2" value="5.950061576462474E-43" />
-      <entry key="S5" value="1.5639831277106228E-17" />
-      <entry key="S10" value="5.704432205464666E-9" />
-      <entry key="S30" value="0.003720582916589014" />
-      <entry key="S60" value="0.12250153257382139" />
-      <entry key="M2" value="0.7599403388036933" />
-      <entry key="M5" value="2.9014865927802265" />
-      <entry key="M10" value="7.978734912711223" />
-      <entry key="M15" value="13.97287542656333" />
-      <entry key="M30" value="29.62444183264586" />
-      <entry key="H1" value="48.050636109886746" />
-      <entry key="H2" value="63.42561160471903" />
-      <entry key="H4" value="73.59975223003042" />
-      <entry key="D1" value="83.75602909889886" />
-      <entry key="W1" value="85.67475850271394" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="1.2228092998754434E-171" />
+      <entry key="S30" value="2.638564728122227E-57" />
+      <entry key="S60" value="1.069667453296474E-28" />
+      <entry key="M2" value="2.6527768677037716E-14" />
+      <entry key="M5" value="2.153775515911618E-5" />
+      <entry key="M10" value="0.027540918180654055" />
+      <entry key="M15" value="0.3301300173865687" />
+      <entry key="M30" value="4.850223579084118" />
+      <entry key="H1" value="22.80329327998295" />
+      <entry key="H2" value="54.200348777175535" />
+      <entry key="H4" value="85.93919473738086" />
+      <entry key="D1" value="128.11590286058166" />
+      <entry key="W1" value="137.38554603909063" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9564111868563339" />
-      <entry key="MS500" value="1.3260478055750315" />
-      <entry key="S2" value="2.2535823569184745" />
-      <entry key="S5" value="3.464098376380608" />
-      <entry key="S10" value="4.49935148843423" />
-      <entry key="S30" value="6.326074364005408" />
-      <entry key="S60" value="7.942069650089363" />
-      <entry key="M2" value="12.175288110018524" />
-      <entry key="M5" value="41.08381817912508" />
-      <entry key="M10" value="124.77341579675537" />
-      <entry key="M15" value="212.92645843411825" />
-      <entry key="M30" value="434.5746937170552" />
-      <entry key="H1" value="703.7913343772811" />
-      <entry key="H2" value="937.2448230705977" />
-      <entry key="H4" value="1095.537515872035" />
-      <entry key="D1" value="1256.181559075891" />
-      <entry key="W1" value="1286.8014979043048" />
+      <entry key="MS100" value="0.9592649728876871" />
+      <entry key="MS500" value="1.0528456978287524" />
+      <entry key="S2" value="1.4952915230686699" />
+      <entry key="S5" value="1.7835631216420906" />
+      <entry key="S10" value="2.0378570135805267" />
+      <entry key="S30" value="2.637091918154897" />
+      <entry key="S60" value="4.341952701612033" />
+      <entry key="M2" value="11.108986519011761" />
+      <entry key="M5" value="26.860927059801188" />
+      <entry key="M10" value="38.26233933684971" />
+      <entry key="M15" value="47.52989224508242" />
+      <entry key="M30" value="108.17563340172403" />
+      <entry key="H1" value="326.76090804562506" />
+      <entry key="H2" value="722.330557485283" />
+      <entry key="H4" value="1136.0479212358919" />
+      <entry key="D1" value="1700.305317640454" />
+      <entry key="W1" value="1826.0449170464965" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -109,6 +112,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.DesafioBTG.Api: http.executor": "Run",
+    ".NET Launch Settings Profile.DesafioBTG.Api: https.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -125,12 +130,15 @@
     "nodejs_package_manager_path": "npm"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
       "Markdown"
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.DesafioBTG.Api: http">
+  <component name="RunManager" selected=".NET Launch Settings Profile.DesafioBTG.Api: https">
     <configuration name="DesafioBTG.Api: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DesafioBTG.Api/DesafioBTG.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
@@ -151,6 +159,22 @@
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DesafioBTG.Api/DesafioBTG.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DesafioBTG.Worker" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DesafioBTG.Worker/DesafioBTG.Worker.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="DesafioBTG.Worker" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
