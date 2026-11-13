@@ -1,5 +1,5 @@
 using DesafioBTG.Api.Data;      
-using DesafioBTG.Api.Services;  // Ajuste para o namespace onde está o seu PedidoService
+using DesafioBTG.Api.Services;  
 using DesafioBTG.Worker;
 using Microsoft.EntityFrameworkCore;
 
