@@ -11,16 +11,19 @@ namespace DesafioBTG.Api.Controller;
 public class PedidosController : ControllerBase
 {
     private readonly PedidoService _pedidoService;
+    private readonly RabbitMqProducerService _rabbitMqProducerService;
 
-    public PedidosController(PedidoService pedidoService)
+    public PedidosController(PedidoService pedidoService, RabbitMqProducerService rabbitMqProducerService)
     {
         _pedidoService = pedidoService;
+        _rabbitMqProducerService = rabbitMqProducerService;
     }
 
     [HttpPost]
     public async Task<IActionResult> Criar(PedidoRequest request, int clienteId)
     {
          var pedido = await _pedidoService.FazerPedido(request, clienteId);
+         await _rabbitMqProducerService.PublicarPedidoAsync(pedido);
         return Ok(pedido);
     }
 

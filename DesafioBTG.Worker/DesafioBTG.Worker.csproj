@@ -9,5 +9,12 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.14"/>
+        <PackageReference Include="RabbitMQ.AMQP.Client" Version="1.4.1" />
+        <PackageReference Include="RabbitMQ.Client" Version="7.3.0-beta.0" />
+        <PackageReference Include="RabbitMQ.Stream.Client" Version="1.12.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DesafioBTG.Api\DesafioBTG.Api.csproj" />
     </ItemGroup>
 </Project>
