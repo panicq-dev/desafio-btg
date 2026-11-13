@@ -12,6 +12,7 @@ builder.Services.AddScoped<PedidoService>();
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<RabbitMqProducerService>();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
